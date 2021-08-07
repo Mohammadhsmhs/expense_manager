@@ -1,16 +1,10 @@
 # expense_manager
 
-A new Flutter project.
+this is a new project that i have started building to track all presonal expenses 
 
-## Getting Started
+it's quite simple and practical and my plan is to complete it by the end of the week 
 
-This project is a starting point for a Flutter application.
+## notice
 
-A few resources to get you started if this is your first Flutter project:
+project is under development and soon will be complete
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
