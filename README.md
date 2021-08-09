@@ -10,6 +10,6 @@ project is under development and soon will be complete
 
 # update 
 
-add key now works but it still needs more work to be usefull
+add key now works 
 
 
