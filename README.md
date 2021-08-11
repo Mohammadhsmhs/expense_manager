@@ -10,7 +10,5 @@ project is under development and soon will be complete
 
 # update 
 
-charts has been added and they are pretty cool
-
-
+charts are now functional
 
