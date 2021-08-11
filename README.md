@@ -10,6 +10,5 @@ project is under development and soon will be complete
 
 # update 
 
-add key now works 
-
+charts are now functional
 
