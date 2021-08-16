@@ -1,5 +1,5 @@
 class Transaction {
-  final int id;
+  final String id;
   final String name;
   final double price;
   final DateTime date;

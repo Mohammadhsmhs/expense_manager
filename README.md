@@ -10,5 +10,11 @@ project is under development and soon will be complete
 
 # update 
 
-charts are now functional
+its almost complete but still needs more work 
 
+to do list : 
+        - dynamic screen size 
+        - state managment
+        - time picker
+        - more charting options 
+        

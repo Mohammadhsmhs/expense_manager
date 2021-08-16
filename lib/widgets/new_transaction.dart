@@ -15,14 +15,14 @@ class _NewTransactionState extends State<NewTransaction> {
 
   final _priceController = TextEditingController();
 
-  var _pickedDate;
+  var _pickedDate = DateTime.now();
 
   void _submitTransaction() {
     final title = _titleController.text;
     final price = double.parse(_priceController.text);
 
     if (title.isEmpty || price <= 0) return;
-    widget.newTransaction(title, price);
+    widget.newTransaction(title, price, _pickedDate);
     Navigator.of(context).pop();
   }
 
@@ -65,9 +65,7 @@ class _NewTransactionState extends State<NewTransaction> {
               height: 55,
               child: Row(
                 children: [
-                  Text(_pickedDate == null
-                      ? "no date"
-                      : DateFormat.yMd().format(_pickedDate)),
+                  Text(DateFormat.yMd().format(_pickedDate)),
                   SizedBox(
                     width: 30,
                   ),
