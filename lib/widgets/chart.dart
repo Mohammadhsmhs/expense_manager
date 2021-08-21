@@ -17,8 +17,7 @@ class Chart extends StatelessWidget {
             _recentTransactions[i].date.month == weekDay.month)
           totalSum += _recentTransactions[i].price;
       }
-      print(DateFormat.E().format(weekDay));
-      print(totalSum);
+
       return {"day": DateFormat.E().format(weekDay), "price": totalSum};
     }).reversed.toList();
   }
@@ -31,7 +30,6 @@ class Chart extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    print(groupedTransactionValues);
     return Card(
       color: Theme.of(context).primaryColorLight,
       child: Row(
