@@ -91,41 +91,9 @@ class _MyHomePageState extends State<MyHomePage> {
             //mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: [
               if (isLandScape)
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Text("showChart"),
-                    Switch.adaptive(
-                        activeColor: Theme.of(context).accentColor,
-                        value: _showChart,
-                        onChanged: (val) => {
-                              setState(() {
-                                _showChart = !_showChart;
-                              })
-                            }),
-                  ],
-                ),
-              if (isLandScape)
-                _showChart
-                    ? Container(
-                        height: (mediaQuery.size.height -
-                                appBar.preferredSize.height -
-                                mediaQuery.padding.top) *
-                            .7,
-                        width: double.infinity,
-                        child: Chart(_recentTransactions),
-                      )
-                    : txList,
+                ..._buildLandScapeContent(mediaQuery, appBar, txList),
               if (!isLandScape)
-                Container(
-                  height: (mediaQuery.size.height -
-                          appBar.preferredSize.height -
-                          mediaQuery.padding.top) *
-                      .23,
-                  width: double.infinity,
-                  child: Chart(_recentTransactions),
-                ),
-              if (!isLandScape) txList,
+                ..._buildPortraitContent(mediaQuery, appBar, txList),
             ]),
       ),
       floatingActionButton: Platform.isAndroid
@@ -136,6 +104,51 @@ class _MyHomePageState extends State<MyHomePage> {
           : Container(),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
     );
+  }
+
+  List<Widget> _buildLandScapeContent(
+      MediaQueryData mediaQuery, AppBar appBar, Widget txList) {
+    return [
+      Row(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          Text("showChart"),
+          Switch.adaptive(
+              activeColor: Theme.of(context).accentColor,
+              value: _showChart,
+              onChanged: (val) => {
+                    setState(() {
+                      _showChart = !_showChart;
+                    })
+                  }),
+        ],
+      ),
+      _showChart
+          ? Container(
+              height: (mediaQuery.size.height -
+                      appBar.preferredSize.height -
+                      mediaQuery.padding.top) *
+                  .7,
+              width: double.infinity,
+              child: Chart(_recentTransactions),
+            )
+          : txList,
+    ];
+  }
+
+  List<Widget> _buildPortraitContent(
+      MediaQueryData mediaQuery, AppBar appBar, Widget txList) {
+    return [
+      Container(
+        height: (mediaQuery.size.height -
+                appBar.preferredSize.height -
+                mediaQuery.padding.top) *
+            .23,
+        width: double.infinity,
+        child: Chart(_recentTransactions),
+      ),
+      txList,
+    ];
   }
 
   _deleteTransaction(String id) {
