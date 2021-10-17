@@ -21,8 +21,8 @@ to do list :
        
 # screenshots
 <p float="left">
-<img src="https://github.com/Mohammadhsmhs/expense_manager/blob/master/screenshots/1.png?raw=true" width="350" /><br>
-<img src="https://github.com/Mohammadhsmhs/expense_manager/blob/master/screenshots/2.png?raw=true" width="350" />
+<img src="https://github.com/Mohammadhsmhs/expense_manager/blob/master/screenshots/1.png" width="350" /><br>
+<img src="https://github.com/Mohammadhsmhs/expense_manager/blob/master/screenshots/2.png" width="350" />
 </p>
 <br><br>
 <p float="left">
