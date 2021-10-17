@@ -21,12 +21,8 @@ to do list :
        
 # screenshots
 
-<img src="https://github.com/Mohammadhsmhs/expense_manager/blob/master/screenshots/1.png?raw=true" width="700" /><br>
+<img src="https://github.com/Mohammadhsmhs/expense_manager/blob/master/screenshots/1.png?raw=true" width="350" /><br><img src="https://github.com/Mohammadhsmhs/expense_manager/blob/master/screenshots/2.png?raw=true" width="350" /><br>
 <br><br>
-<img src="https://github.com/Mohammadhsmhs/expense_manager/blob/master/screenshots/2.png?raw=true" width="700" /><br>
-<br><br>
-<img src="https://github.com/Mohammadhsmhs/expense_manager/blob/master/screenshots/3.png?raw=true" width="700" /><br>
-<br><br>
-<img src="https://github.com/Mohammadhsmhs/expense_manager/blob/master/screenshots/4.png?raw=true" width="700" /><br>
+<img src="https://github.com/Mohammadhsmhs/expense_manager/blob/master/screenshots/3.png?raw=true" width="350" /><br><img src="https://github.com/Mohammadhsmhs/expense_manager/blob/master/screenshots/4.png?raw=true" width="350" /><br>
 <br><br>
 
