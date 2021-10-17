@@ -20,10 +20,12 @@ to do list :
         
        
 # screenshots
-<tr>
- <td><img src="https://github.com/Mohammadhsmhs/expense_manager/blob/master/screenshots/1.png" width="350" /></td>
- <td><img src="https://github.com/Mohammadhsmhs/expense_manager/blob/master/screenshots/2.png" width="350" /></td>
-</tr>
+<table>
+ <tr>
+  <td><img src="https://github.com/Mohammadhsmhs/expense_manager/blob/master/screenshots/1.png" width="350" /></td>
+  <td><img src="https://github.com/Mohammadhsmhs/expense_manager/blob/master/screenshots/2.png" width="350" /></td>
+ </tr>
+</table>
 <br><br>
 <p float="left">
 <img src="https://github.com/Mohammadhsmhs/expense_manager/blob/master/screenshots/3.png?raw=true" width="350" /><br>
